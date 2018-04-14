@@ -187,7 +187,7 @@ bindsym $mod+Control+1 move workspace to output $left-output
 bindsym $mod+Control+2 move workspace to output $middle-output
 bindsym $mod+Control+3 move workspace to output $right-output
 
-bindsym $mod+l exec "i3lock"
+bindsym $mod+l exec "i3lock -i ~/.config/i3/i3_lock_bg.jpg"
 bindsym $mod+Control+l exec "systemctl suspend"
 
 # arandr files monitors config
